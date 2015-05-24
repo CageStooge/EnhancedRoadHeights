@@ -87,4 +87,7 @@ xcopy /y "$(TargetPath)" "%25LOCALAPPDATA%25\Colossal Order\Cities_Skylines\Addo
   <Target Name="AfterBuild">
   </Target>
   -->
+  <ItemGroup>
+    <None Include="LICENSE.txt" />
+  </ItemGroup>
 </Project>
